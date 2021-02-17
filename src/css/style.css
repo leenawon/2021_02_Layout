@@ -246,7 +246,7 @@ header {
 
 .content_title {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: var(--margin-bottom);
   color: var(--content-text-color);
 }
@@ -321,8 +321,8 @@ header {
 
 .second_content_section {
   width: 80%;
-  height: 450px;
-  margin: 0 auto var(--margin-bottom);
+  height: 480px;
+  margin: 0 auto 50px;
   background-color: var(--second-content-background-color);
   border-radius: 20px;
   position: relative;
@@ -344,6 +344,7 @@ header {
 
 .second_list_column li {
   width: 100%;
+  height: 155px;
 }
 
 .second_list_column .second_column_link {
@@ -416,4 +417,82 @@ header {
 .second_row_link:hover img {
   transform: scale(1.08);
   transition: all 1s;
+}
+
+/* Third Content Section */
+
+.third_content_section {
+  width: 80%;
+  height: auto;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.third_content_section .third_content_issue,
+.third_content_section .third_content_road_map {
+  width: 40%;
+  height: 180px;
+  padding: 20px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  background-color: #f3e5f5;
+  background-position: right;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.third_content_issue {
+  background-image: url(https://images.unsplash.com/photo-1532090904700-5e3ddbb47c3e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  background-size: 120px 100%;
+}
+
+.third_content_road_map {
+  background-image: url(https://images.unsplash.com/photo-1566625147574-b1cf1ff6cf7d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fHJvYWR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+  background-size: 100px 100%;
+}
+
+.third_content_section .third_content_title {
+  margin: 5% 0;
+}
+
+.third_content_section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Top Button */
+.topBtn {
+  width: 80px;
+  height: 80px;
+  display: block;
+  float: right;
+  right: 40px;
+  background-color: white;
+  color: gray;
+  margin: 30px 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: auto;
+  background-color: gray;
+  color: white;
+  padding: 30px;
+}
+
+.footer .address {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
