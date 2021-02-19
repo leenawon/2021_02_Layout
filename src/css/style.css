@@ -429,6 +429,7 @@ header {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .third_content_section .third_content_issue,
@@ -465,14 +466,13 @@ header {
 
 /* Top Button */
 .topBtn {
-  width: 80px;
-  height: 80px;
-  display: block;
+  width: 50px;
+  height: 50px;
   float: right;
-  right: 40px;
-  background-color: white;
-  color: gray;
-  margin: 30px 30px;
+  background-color: #778beb;
+  color: white;
+  margin: 30px 50px;
+  padding: 10px;
   border-radius: 50%;
   text-align: center;
 }
@@ -482,9 +482,10 @@ header {
 .footer {
   width: 100%;
   height: auto;
-  background-color: gray;
+  background-color: #95afc0;
   color: white;
   padding: 30px;
+  overflow: hidden;
 }
 
 .footer .address {
